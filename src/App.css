@@ -1,0 +1,30 @@
+.App {
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card {
+  background-color: rgb(255, 255, 255); /* Semi-transparent white background for the card */
+  max-width: 400px;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.form-control {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-top: 20px;
+  }
+}
